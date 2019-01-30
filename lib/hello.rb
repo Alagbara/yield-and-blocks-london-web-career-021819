@@ -1,6 +1,6 @@
 def hello_t (array)
   i = 0 
-  if !array
+  if !block_given?
     return "array is empty"
   end
 
