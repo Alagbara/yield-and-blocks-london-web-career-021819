@@ -1,6 +1,6 @@
 def hello_t (array)
   i = 0 
-  if !array < 1
+  if !array
     return "array is empty"
   end
 
