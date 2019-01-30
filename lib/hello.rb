@@ -1,7 +1,7 @@
 def hello_t (array)
   i = 0 
   if !block_given?
-    print "Hey! No block was given!"
+    print "Hey! No block was given!\n"
     return nil
   end
 
