@@ -2,7 +2,7 @@ def hello_t (array)
   i = 0 
   if !block_given?
     print "Hey! No block was given!"
-    return nill
+    return nil
   end
 
   while i < array.length 
