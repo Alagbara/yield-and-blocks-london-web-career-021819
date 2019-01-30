@@ -1,5 +1,7 @@
 def hello_t (array)
   i = 0 
+  if array.length < 1
+    return "array is empty"
 
   while i < array.length 
     yield(array[i])
